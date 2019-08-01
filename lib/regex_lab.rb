@@ -20,4 +20,4 @@ end
 
 
 a = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
-scan(/^\w{5}\s/)
+scan(/^\w{5}\$/)
