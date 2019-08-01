@@ -18,5 +18,6 @@ def valid_phone_number?(phone)
   phone.to_i.match(/\A\d{10}\z/) ? true : false
 end
 
+valid_numbers = ["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"]
 
-phone = 1234567891
+invalid_numbers = ["28894546", "(718)891-13135", "234 43 9978", "(800)IloveNY"]
