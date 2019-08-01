@@ -15,9 +15,8 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  phone.match(/\Ad+{10}\z/) ? true : false
+  phone.to_i.match(/\Ad+{10}\z/) ? true : false
 end
 
 
-a = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
-.scan(/\w{5}/)
+phone = 0123456789
