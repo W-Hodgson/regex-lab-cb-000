@@ -18,4 +18,6 @@ def valid_phone_number?(phone)
 
 end
 
-"extreme briny crepe parking snaps grouping snafu round dog be fork spoon".scan(/\w{5}/)
+
+a = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
+scan(/\w{5}/)
