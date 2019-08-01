@@ -7,7 +7,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  text.scan(/\w{5}/)
+  text.scan(/^\w{5,5}$/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
@@ -20,4 +20,4 @@ end
 
 
 a = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
-scan(/^\w{5}\$/)
+.scan(/^\w{5}\$/)
